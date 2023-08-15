@@ -1,9 +1,16 @@
 # Neutron Dose in water ball
+
 Test of energy deposition in a ball of water by neutrons or protons, dependent initial distance of the beam.
-The water ball has a 30cm diameter, its center is the center of the mother volume (0,0,0). 
-The initial positions are randomly selected between 16cm and 1m from the center of the ball along the z-axis.
-The particle type (proton or neutron) is randomly selected for each event.
-A root TTree file is created giving the energy deposited for each neutron or proton and the initial distance from the center of the ball. Protons and neutrons data are stored in separate branches.
+
+- The water ball has a 30cm diameter, its center is the center of the mother volume (0,0,0). 
+
+- The initial positions are randomly selected between 16cm and 1m from the center of the ball along the z-axis.
+
+- The particle type (proton or neutron) is randomly selected for each event.
+
+- A root TTree file is created giving the energy deposited for each neutron or proton and the initial distance from the center of the ball. 
+
+- Protons and neutrons data are stored in separate branches.
 
 
 ## Compile the project
