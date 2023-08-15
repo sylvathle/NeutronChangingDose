@@ -1,5 +1,10 @@
 # Neutron Dose in water ball
-Test of energy deposition in a ball of water (30cm in diameter) by neutrons, dependency initial distance of the beam (randomly selected between 16cm and 1m from the center of the ball).
+Test of energy deposition in a ball of water by neutrons or protons, dependent initial distance of the beam.
+The water ball has a 30cm diameter, its center is the center of the mother volume (0,0,0). 
+The initial positions are randomly selected between 16cm and 1m from the center of the ball along the z-axis.
+The particle type (proton or neutron) is randomly selected for each event.
+A root TTree file is created giving the energy deposited for each neutron or proton and the initial distance from the center of the ball. Protons and neutrons data are stored in separate branches.
+
 
 ## Compile the project
 
@@ -22,5 +27,5 @@ If you want the simulation with 10000 initial neutrons:
 ./sim run.mac
 ```
 
-A root file is created giving the energy deposited per neutron and the initial distance from the center of the ball.
+
 A plot can be produced using the file *plot.cc* (should be moved to the build folder).
